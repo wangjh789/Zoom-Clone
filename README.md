@@ -18,6 +18,7 @@ npm i -g peer
 
 ```sh
 cd Zoom-Clone-master
+peerjs --port 3001
 npm run devStart
 ```
 Using 3000 & 3001 port for server, peer server
