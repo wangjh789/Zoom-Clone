@@ -33,3 +33,7 @@ Using 3000 & 3001 port for server, peer server
 ## Disconnect
 1. 한 유저가 나가면 서버소켓은 해당 방의 유저들에게 "user-disconnected" 이벤트를 userId와 함께 emit 한다.
 2. 그 방에 있던 유저들은 userId에 해당하는 video를 없애고 peers에서 close 한다.
+
+# ScreenShot
+<img width="1280" alt="스크린샷 2021-03-19 오후 4 15 53" src="https://user-images.githubusercontent.com/19744909/111744613-d8fc8380-88ce-11eb-90fc-4db8058e78d0.png">
+
